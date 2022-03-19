@@ -1,0 +1,7 @@
+[ZKILLBOARD]
+Zkill_Endpoint = wss://zkillboard.com/websocket/
+CHARS = 00000000
+CORPS = 98372649
+ALLYS = 00000000
+[DISCORD]
+Webhook = https://discord.com/api/webhooks/your-webhook-link-here

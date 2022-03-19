@@ -1,0 +1,11 @@
+version: "3.9"
+services:
+  starbot:
+    restart: always
+    build:
+      context: .
+      dockerfile: .docker/Dockerfile
+    image: "starbot:latest"
+    volumes:
+      - "./starbot:/home/starbot"
+    command: /usr/local/bin/python3 /home/starbot/starbot.py
